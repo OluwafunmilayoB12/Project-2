@@ -42,7 +42,7 @@ This affects the Finance and Operations Teams by Low Profit Margin and unsustain
 
 ## Dataset Metadata
 
-Dataset Source
+![Dataset](https://github.com/OluwafunmilayoB12/Project-2/tree/main)
 
 
 The project uses three CSV files but focuses on specific columns to answer the technical questions.
