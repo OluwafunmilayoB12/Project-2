@@ -57,7 +57,7 @@ The project uses three CSV files but focuses on specific columns to answer the t
 
 ## 🧾 DECISION TABLE — DATA QUALITY & CLEANING STRATEGY
 
-📎 **Visual Reference:** ![Decision Table](https://github.com/OluwafunmilayoB12/Project/blob/main/DecisionTable.png)
+📎 **Visual Reference:** ![Decision Table]
 
 ---
 
@@ -177,10 +177,11 @@ potentially recover 10-15% of revenue loss (~GHC 27K-40.5K), with additional gai
 
 ## Key Assumptions & Challenges 
  -**FX Rates**: Created 2024-2025 averages
+
+ 
 	Avg 2024 rate- GHS base currency
 		      USD 14.4800 
 		      NGN 0.0084  
-      
 	Avg 2024 rate- GHS base currency
 		      USD 10.5000 
 		      NGN 0.0101  
