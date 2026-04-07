@@ -174,7 +174,7 @@ Revenue gap is driven by high impact underperforming segments. **Optimize** Bott
 
 ### INSIGHTS
 
-- Revenue shows overall growth but with recurring drops in key periods
+- Revenue shows overall growth but with recurring drops in Nov 2024 and Nov 2025
 - Revenue gaps are not linked to logistics constraints but are influenced by: demand strength, marketing channel effectiveness and operational inconsistencies
 - Underperformance is driven by specific channels and product mix
 - Pricing inconsistencies and FX handling contribute to artificial revenue gaps
