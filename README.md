@@ -9,10 +9,11 @@
 - [HYPOTHESIS EXPLORATION](#HYPOTHESIS-EXPLORATION) 
 - [BUSINESS IMPACT](#BUSINESS-IMPACT) 
 - [ANALYSIS](#ANALYSIS) 
-- [RESULTS AND VISUALS](#RESULTS-AND-VISUALS) 
-- [INSIGHT](#ROOT-CAUSE-INSIGHTS) 
-- [RECOMMENDATION](#RECOMMENDATION) 
-- [WHY THE FIX WILL WORK](#WHY-THE-FIX-WILL-WORK)
+- [RESULTS AND VISUALS](#RESULTS-AND-VISUALS)
+- [IMPACTS](#IMPACTS) 
+- [INSIGHT](#INSIGHTS) 
+- [RECOMMENDATIONS](#RECOMMENDATIONS) 
+- [Key Assumptions & Challenges](#Key-Assumptions-And-Challenges )
 
 ---
 
@@ -57,7 +58,8 @@ The project uses three CSV files but focuses on specific columns to answer the t
 
 ## 🧾 DECISION TABLE — DATA QUALITY & CLEANING STRATEGY
 
-📎 **Visual Reference:** ![Decision Table]
+📎 **Visual Reference:** ![Decision Table](https://github.com/OluwafunmilayoB12/Project-2/blob/main/Posh%20-%20data%20quality%201.png)
+                        ![Decision Table](https://github.com/OluwafunmilayoB12/Project-2/blob/main/Posh%20-%20data%20quality%202.png)
 
 ---
 
@@ -72,6 +74,14 @@ CustomerID, country-name  and SKU were inconsistent in casing and fixed to ensur
 
 **Phase 3 – Logical Integrity**  
 Dropped duplicated transaction_id of same values across all relevant columns
+
+Before data quality
+
+![Messy data](https://github.com/OluwafunmilayoB12/Project-2/blob/main/messy%20data.png)
+
+After data quality
+
+![Clean data](https://github.com/OluwafunmilayoB12/Project-2/blob/main/clean%20data.png)
 
 ---
 
@@ -135,28 +145,37 @@ WITH Revenue AS (
 ## RESULTS AND VISUALS
 
 ### VISUAL 1 - Revenue Overview
-![Visual 1]
+![Visual 1](https://github.com/OluwafunmilayoB12/Project-2/blob/main/visual%20posh%20i.png)
+
 Revenue shows an overall upward trend but drops significantly in Nov 2024 and Nov 2025
+
 ### VISUAL 2 Gap Analysis
-![Visual 2]
-Revenue gap is driven by high impact underperforming segments. Optimize Bottom right combinations and scale top right performers.
+![Visual 2](https://github.com/OluwafunmilayoB12/Project-2/blob/main/visual%20posh%20ii.png)
+
+Revenue gap is driven by high impact underperforming segments. **Optimize** Bottom right combinations and **scale** top right performers**.
+- Top Right (High Revenue + positive gap) → Scale
+- Top Left  (Low Revenue + positive gap) → Need improvement
+- Bottom Right (High Revenue + Negative gap) → Fix problem & optimize
+  
+ (High Revenue + Negative gap) this combo generate lot of revenue gap but are underperforming expectaction → it represent the biggest financial risk
 
 ### VISUAL 3 - Action Plan and Recommendation
-![Visual 3]
+![Visual 3](https://github.com/OluwafunmilayoB12/Project-2/blob/main/visual%20posh%20iii.png)
 
 ---
+
 ## IMPACTS
--Actual revenue of GHC 165.17M exceeds the expected benchmark of GHC 127.30M (+29.75% above expected performance), indicating strong overall performance 
--The positive variance of GHC 37.88M +29.75% against expected revenue shows stronger than anticipated demand and execution outcomes
--Revenue gain of GHC 38.15M (+29.97% of expected revenue) shows successful segments driving performance above the forecast baseline 
--Revenue loss of GHS 270.18k (0.21% of expected revenue) represents leakage that reduces efficiency despite overall performance above benchmark
+- Actual revenue of GHC 165.17M exceeds the expected benchmark of GHC 127.30M (+29.75% above expected performance), indicating strong overall performance.
+- The positive variance of GHC 37.88M +29.75% against expected revenue shows stronger than anticipated demand and execution outcomes.
+- Revenue gain of GHC 38.15M (+29.97% of expected revenue) shows successful segments driving performance above the forecast baseline.
+- Revenue loss of GHS 270.18k (0.21% of expected revenue) represents leakage that reduces efficiency despite overall performance above benchmark.
 
 ---
 
 ### INSIGHTS
 
 - Revenue shows overall growth but with recurring drops in key periods
-- Revenue gaps are not linked to logistics constraints
+- Revenue gaps are not linked to logistics constraints but are influenced by: demand strength, marketing channel effectiveness and operational inconsistencies
 - Underperformance is driven by specific channels and product mix
 - Pricing inconsistencies and FX handling contribute to artificial revenue gaps
 
@@ -171,8 +190,8 @@ Revenue gap is driven by high impact underperforming segments. Optimize Bottom r
 | Strategic Direction | Focus on demand generation rather than operational adjustment | Management | 🟢 Low| improve overall revenue stability
 
 
-Addressing these issues will improve revenue quality and profit margins, not just top line growth
-potentially recover 10-15% of revenue loss (~GHC 27K-40.5K), with additional gains from pricing and channel optimization
+Addressing these issues will improve revenue quality and profit margins, not just top line growth.
+Potentially recover 10-15% of revenue loss (~GHC 27K-40.5K), with additional gains from pricing and channel optimization
 
 
 ## Key Assumptions & Challenges 
