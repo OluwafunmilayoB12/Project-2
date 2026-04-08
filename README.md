@@ -7,7 +7,7 @@
 - [DATASET METADATA](#DATASET-METADATA) 
 - [DATA QUALITY AND CLEANING STRATEGY](#DATA-QUALITY-AND-CLEANING-STRATEGY) 
 - [HYPOTHESIS EXPLORATION](#HYPOTHESIS-EXPLORATION) 
-- [BUSINESS IMPACT](#BUSINESS-IMPACT) 
+- [BASELINE](#BASELINE) 
 - [ANALYSIS](#ANALYSIS) 
 - [RESULTS AND VISUALS](#RESULTS-AND-VISUALS)
 - [IMPACTS](#IMPACTS) 
@@ -20,13 +20,13 @@
 ## CONTEXT AND PROBLEM
 
 Posh Hairs' business based in Ghana.  
-Recently, The Finance and the Operational teams noticed that **the business lacks an accurate profitability model for its most expensive products, leading the business to actively lose profit margin on high-value international orders due to chronic operational failures.
+Recently, The Finance and the Operational teams noticed that the business lacks an accurate profitability model for its most expensive products, leading the business to actively lose profit margin on high-value international orders due to chronic operational failures.
 
 ### Problem Statement
  "The company is losing profit margin on high-value international orders. 
 This affects the Finance and Operations Teams by Low Profit Margin and unsustainable Logistics cost.
  We need to answer which combinations are profitable and which combinations must be stopped. 
- We need to help them achieve High net profit Margin and identify the combinationscausing the loss, measured by Profit Margin and Logistics cost.
+ We need to help them achieve High net profit Margin and identify the combinations causing the loss, measured by Profit Margin and Logistics cost.
  Solving it will Improve the profit and Logistics decisions become data driven while ignoring it will harm the business finances in the long run"
 
 ---
@@ -51,7 +51,7 @@ The project uses three CSV files but focuses on specific columns to answer the t
 | Table | Description | Key Columns |
 |--------|--------------|-------------|
 | **customers** | The detailed customers log | `CustomerID`, `Country_name`, `Preferred-currency` |
-| **Products** | Products attributes | `SKUs, `Product`, 'Retail-price_GHS' |
+| **Products** | Products attributes | `SKUs',`Product`, 'Retail_price_GHS' |
 | **Transaction_clean** | Transaction details | `Order_date`, `Revenue_logged`, `marketing_channel` |
 
 ---
@@ -94,7 +94,7 @@ Before analysis, this was tested:
 Analyzed performance across country and channel
 Checked distribution consistency
 
-→ **False** – no signicant evidence of logistics contraints observed
+→ **False** – no signicant evidence of logistics constraints observed
 
  **Revenue gaps are diven by demand and pricing factors, not logistics
 
@@ -103,15 +103,15 @@ Applied the **BAIIR** Framework (*Baseline, Analysis, Insight, Impact, Recommend
 
 ---
 
-## BUSINESS IMPACT
+## BASELINE
 
 | Metric | Value | Interpretation |
 |---------|--------|----------------|
-| Revenue | GHS 165.17M| |
-| Expected Revenue | GHS 127.30M| |
-| Revenue Gap | GHS 37.88M | |
-| Revenue Gain | GHS 38.15M | |
-| Revenue Loss | GHS 270.18K| |
+| Revenue | GHS 165.17M|Indicates strong business growth and performance above expectations |
+| Expected Revenue | GHS 127.30M| Serves as benchmark for evaluating actual performance |
+| Revenue Gap | GHS 37.88M | Positive gap confirms overall performance exceeds targets |
+| Revenue Gain | GHS 38.15M | Driven by strong-performing periods and channels|
+| Revenue Loss | GHS 270.18K| Limited to specific periods (Nov 2024 and Nov 2025), suggesting temporary gaps likely driven by channel or product underperformance rather than overall decline.|
 ---
 
 ## ANALYSIS
