@@ -26,7 +26,7 @@ Recently, The Finance and the Operational teams noticed that the business lacks 
  "The company is losing profit margin on high-value international orders. 
 This affects the Finance and Operations Teams by Low Profit Margin and unsustainable Logistics cost.
  We need to answer which combinations are profitable and which combinations must be stopped. 
- We need to help them achieve High net profit Margin and identify the combinations causing the loss, measured by Profit Margin and Logistics cost.
+ We need to help identify the combinations causing the loss, measured by revenue gap and performance drivers.
  Solving it will Improve the profit and Logistics decisions become data driven while ignoring it will harm the business finances in the long run"
 
 ---
