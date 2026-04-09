@@ -55,6 +55,14 @@ The project uses three CSV files but focuses on specific columns to answer the t
 | **Transaction_clean** | Transaction details | `Order_date`, `Revenue_logged`, `marketing_channel` |
 
 ---
+Tools & Skills Used
+
+• SQL (Data Cleaning, quality & Analysis)
+
+• Power BI (Dashboard & Visualization)
+
+• Data Modeling & DAX
+
 
 ## 🧾 DECISION TABLE — DATA QUALITY & CLEANING STRATEGY
 
@@ -164,6 +172,16 @@ Revenue gap is driven by high impact underperforming segments. **Optimize** Bott
 
 ---
 
+## INSIGHTS
+
+- Revenue shows overall growth but with recurring drops in Nov 2024 and Nov 2025.
+- Revenue gaps are not linked to logistics constraints but are influenced by: demand strength, marketing channel effectiveness and operational inconsistencies. 
+- Underperformance is driven by specific channels and product mix. 
+- Pricing inconsistencies and FX handling contribute to artificial revenue gaps. 
+
+
+---
+
 ## IMPACTS
 - Actual revenue of GHC 165.17M exceeds the expected benchmark of GHC 127.30M (+29.75% above expected performance), indicating strong overall performance.
 - The positive variance of GHC 37.88M +29.75% against expected revenue shows stronger than anticipated demand and execution outcomes.
@@ -172,14 +190,6 @@ Revenue gap is driven by high impact underperforming segments. **Optimize** Bott
 
 ---
 
-### INSIGHTS
-
-- Revenue shows overall growth but with recurring drops in Nov 2024 and Nov 2025
-- Revenue gaps are not linked to logistics constraints but are influenced by: demand strength, marketing channel effectiveness and operational inconsistencies
-- Underperformance is driven by specific channels and product mix
-- Pricing inconsistencies and FX handling contribute to artificial revenue gaps
-
----
 ## RECOMMENDATIONS
 | Focus Area | Action | Owner | Priority | Expected impact |
 |-------------|---------|--------|-----------|-----------|
