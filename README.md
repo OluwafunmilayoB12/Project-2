@@ -217,4 +217,5 @@ Potentially recover 10-15% of revenue loss (~GHC 27K-40.5K), with additional gai
 	from public source no original rates provided.
 
  -**Cost Data**: Net profit cannot be generated directly because cost value is unavailable
+ 
  -Incorrect refund application by the operational teams.
