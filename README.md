@@ -171,6 +171,9 @@ Revenue gap is driven by high impact underperforming segments. **Optimize** Bott
 ![Visual 3](https://github.com/OluwafunmilayoB12/Project-2/blob/main/visual%20posh%20iii.png)
 
 ---
+📊 Interactive Dashboard:
+https://app.powerbi.com/view?r=eyJrIjoiMDJmZWMxNzEtMGE2NC00YTY0LTkwZDQtYzZjOWQ5NDQ4YmRkIiwidCI6Ijk3MGQ2YjAxLTQxYzUtNDYwYS05NTFkLTc4NTJlODJiODU2ZCJ9
+
 
 ## INSIGHTS
 
